@@ -58,3 +58,32 @@ body {
 .reset-score-button:hover {
   background-color: #beb73d;
 }
+
+@media (max-width: 1025px) {
+  .icons {
+    width: 150px;
+  }
+  .wrap {
+    margin-left: 200px;
+   }
+   body {
+    height: 1370px;
+   }
+}
+
+@media (max-width: 750px) {
+  .icons {
+    width: 70px;
+  }
+  .style-icons {
+    margin-right: 10px;
+  }
+  .wrap {
+    margin-left: 40px;
+   }
+   body {
+    height: 900px;
+   }
+   .title {
+    margin-left: 60px;
+}
